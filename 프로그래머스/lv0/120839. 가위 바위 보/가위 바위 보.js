@@ -6,7 +6,7 @@ function solution(rsp) {
             answer += '0'
         } else if (array[i] === '0') {
             answer += '5'
-        } else if (array[i] === '5') {
+        } else {
             answer += '2'
         }
     }
