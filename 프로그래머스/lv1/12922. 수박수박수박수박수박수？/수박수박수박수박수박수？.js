@@ -1,8 +1,8 @@
 function solution(n) {
-    let answer = [];
+    let answer = '';
     
     for (let i = 0; i < n; i++) {
-        i % 2 !== 0 ? answer.push("박") : answer.push("수");
+        answer += i % 2 !== 0 ? "박" : "수";
     }
-    return answer.join('');
+    return answer;
 }
